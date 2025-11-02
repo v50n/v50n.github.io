@@ -21,7 +21,7 @@ Lorsqu'on arrive à capturer une authentification NTLM depuis un protocol HTTP, 
 
 ## Prérequis
 - un accès en interne
-- LLMNR/NBTNS ou IPv6 actif
+- LLMNR/NBTNS ou IPv6 actif cj
 - un peu de chance et de patience
 
 
@@ -42,7 +42,7 @@ Dump LDAP réussite
 ![LDAP_dump](/assets/images/AD/from http to LDAP and LDAPS/ntlmrelayx dump ldap 2.png)
 
 ### HTTP vers LDAPs
-Pareil que vers LDAP, mais ce fois ci on essaie d'ajouter un compte de machine. Avant ça, faut vérifier si le MAQ (Machine Account Quota) est supérieur à 0. On peut faire ça avec les informations LDAP qu'on vient de récupérer
+Pareil que vers LDAP, mais ce fois ci on essaie d'ajouter un compte de machicne. Avant ça, faut vérifier si le MAQ (Machine Account Quota) est supérieur à 0. On peut faire ça avec les informations LDAP qu'on vient de récupérer
 ![check_MAQ](/assets/images/AD/from http to LDAP and LDAPS/MAQ ldap.png)
 
 ET puis relayer et c'est bon on a désormais un compte de machine valide, que nous pouvons utiliser par la suite pour l'énumération ou des attaques de type délégation. 
