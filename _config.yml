@@ -23,10 +23,10 @@ tagline: Another cybersec's guy # it will display as the subtitle
 url: "https://v50n.github.io"
 
 twitter:
-  username: 0x5017 # change to your Twitter username
+  username: "0x5017" # change to your Twitter username
 
 social:
-  # Change to your full name.
+  # Change to your full name.aaa
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name:
     Son
@@ -34,10 +34,6 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://x.com/0x5017 # change to your Twitter homepage
-      # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
