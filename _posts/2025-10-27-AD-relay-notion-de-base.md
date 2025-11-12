@@ -40,8 +40,8 @@ En gros, le système de NTLM se base sur un système de negociation/challenge-re
 Et le Kerberos ? 
 
 Le kerberos permet authentifier mais avec un système de 2 phases seulement :
-- Coucou c'est moi ! Donne-moi mon TGT
-- Puis il va vers un service et dire : coucou c'est mon TGT, donne moi un TGS
+- Coucou c'est moi ! (Et il envoie des informations pour prouver que c'est bien lui biensûr). Donne-moi mon TGT ! 
+- Une fois obtenir le TGT :  coucou c'est mon TGT, donne moi un TGS pour un tel service
 
 Le relay Kerberos, j'ai lu dans un article de Dirkjan, il dit que ce n'est pas vraiment du relai, mais juste sur le fait que ça re-utilise les mêmes modules du tool ntlmrelayx qu'il appelle comme ça (peut-être que ma mémoire n'est pas bonne !). En tous cas, on va aborder le relai kerberos dans le chapitre dédié aux délégations. 
 
