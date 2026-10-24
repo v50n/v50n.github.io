@@ -115,6 +115,10 @@ Về read, theo như [link sau](https://blog.rchapman.org/posts/Linux_System_Cal
 
 ## Vào việc
 
+Với chall này, các funcion, instruction được viết với fix adresse. Không có PIE (Position-independent code). 
+Vậy nên :
+
+
 ![read input](/assets/images/pwn/read_function.png)
 Ở đây ta có : 
 ```nasm
