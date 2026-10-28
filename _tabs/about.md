@@ -13,3 +13,6 @@ I'm working in restaurants before working on IT in general, and cybersecurity af
 How did I end up in cybersecurity? Honestly, 100% hasard, 1000% luck. No plan, no childhood dream of becoming a hacker. Life just took me there, and here I am.
 
 Today, I'm working as a CERT analyst and junior pentester. My dream is become a vulnerability researcher. 
+
+If you want to connect, or just saw something wrong in my blog, you can contact me via discord (0x5017) :) 
+
