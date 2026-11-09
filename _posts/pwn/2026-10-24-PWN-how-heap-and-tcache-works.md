@@ -18,6 +18,9 @@ malloc(0x20) 2 times, malloc(0x100) 1 time, then free() all of them, and malloc 
 
 If someone found an error in my blog or found a miss understand, fell free to contact me ! 
 
+![heap and tcache]({{ '/assets/images/pwn/heap/tcache and heap.png' | relative_url }})
+
+
 ## The program
 
 ```c

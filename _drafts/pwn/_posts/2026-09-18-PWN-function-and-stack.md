@@ -13,14 +13,6 @@ Khi học tới ROP stack pivot, bố mày thấy mông lung, đéo hiểu stack
 
 Giả sử  main() --> test() thì stack sẽ hoạt động như thế nào: 
 
-```md
-Main()
-  | 
-  |
-  v
-Test()  
-```
-
 Viết thử 1 bài bằng C rồi debug với gdb 
 ```c
 #include<stdio.h>
